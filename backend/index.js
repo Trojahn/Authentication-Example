@@ -67,7 +67,6 @@ app.post("/usuario", async (req, res) => {
     if (!req.body.login || !req.body.senha) {
         return res.status(404).send({ msg: "Login ou senha não encontrados" });
     }
-
     let existe = await banco.existeLogin(req.body.login);
     if (existe) {
         return res.status(400).send({ msg: "Login já existe" });
