@@ -40,4 +40,4 @@ As rotas disponíveis e seus propósitos são:
 - POST `/usuario` - Cadastra um novo usuário no sistema. Requer **login** e **senha** no corpo da requisição.
 - POST `/usuario/login` - Faz o processo de login. Requer **login** e **senha** no corpo da requisição. Retorna um token JWT com validade de 1h para ser enviado no header *Authorization* nas requisições necessárias.
 - GET `/mensagem` - Retorna as mensagens cadastradas para o respectivo usuário logado.
-- POST `/mensagem` - Cadastra uma nova mensagem para o usuário logado.
+- POST `/mensagem` - Cadastra uma nova mensagem para o usuário logado. Requer o parâmetro **texto** enviado no corpo da requisição.
