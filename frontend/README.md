@@ -1,8 +1,28 @@
-# React + Vite
+# Front-End
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Front-end utilizado para demonstrar as capacidades de um sistema de autenticação usando tokens JWT para o cadastro de pequenas mensagens privadas para cada usuário.
 
-Currently, two official plugins are available:
+### Avisos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este código é puramente didático e deve ser utilizado apenas como modelo inicial de desenvolvimento.
+
+## 💻 Pré-requisitos
+
+Antes de começar, verifique que sua máquina possua:
+
+- `Node`
+- `npm`
+
+## 🚀 Instalando
+
+Para iniciar o front-end, digite os seguintes comandos no terminal/prompt de comando:
+
+```
+cd frontend/
+npm install 
+npm run dev
+```
+
+## ☕ Usando
+
+Acesse a url do serviço em execução. Em geral, o endereço `http://localhost:5173/` é geralmente utilizado.
